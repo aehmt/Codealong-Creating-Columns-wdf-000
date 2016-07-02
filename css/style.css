@@ -79,7 +79,7 @@ img, video, audio {
 /*///////LAYOUT/////////////*/
 
 * {
-  -web-kit-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
@@ -93,11 +93,13 @@ img, video, audio {
 .col-1 {
   float: left;
   width: 32%;
+  background: #ccc;
 }
 
 .col-2 {
   float: left;
   width: 66%;
+  background: #ccc;
 }
 
 .col-3 {
@@ -127,7 +129,7 @@ header {
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%
+  width: 100%;
   background: #fff;
   z-index: 1;
 }
@@ -151,9 +153,3 @@ section {
   width: 40px;
   background: yellow;
 }
-
-
-
-
-
-
